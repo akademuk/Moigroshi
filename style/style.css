@@ -1201,6 +1201,9 @@ margin-bottom: 43px;
 .moigroshi-main .main-container {
     margin-bottom: 64px;
 }
+.moigroshi-main .margin{
+    margin-bottom: 28px;
+}
 .moigroshi-creditor .creditor-header h2 {
     color: #000;
     font-family: 'Montserrat', sans-serif !important;
@@ -1342,6 +1345,9 @@ margin-bottom: 43px;
     flex-direction: column;
     background: #fff;
 }
+.moigroshi-main .main-card {
+    border: none;
+}
 .burger-menu-main ul {
     display: flex;
     flex-direction: column;
@@ -1413,8 +1419,9 @@ margin-bottom: 43px;
     font-size: 18px;
     margin-bottom: 32px;
 }
-.moigroshi-main h2 {
-    display: none;
+.moigroshi-creditor-h2 {
+    font-size: 18px !important;
+    margin-bottom: 14px !important;
 }
 .main-icon {
     display: none;
