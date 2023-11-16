@@ -1426,6 +1426,9 @@ margin-bottom: 43px;
 .main-icon {
     display: none;
 }
+.moigroshi-creditor .creditor-header h2 {
+    text-align: left !important;
+}
 .moigroshi-main > h2 {
     display: none;
 }
