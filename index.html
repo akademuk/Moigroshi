@@ -986,34 +986,6 @@
 </script>
 
 
-<script>
-    // Попап
-    const openPopupButton = document.getElementById('openPopupButton');
-    const closePopupButton = document.getElementById('closePopupButton');
-    const body = document.getElementsByClassName('.body');
-    const popup = document.getElementById('popup');
-    function openPopup() {
-        popup.style.display = 'flex';
-        document.querySelector('.body').classList.toggle('open');
-    }
-    function closePopup() {
-        popup.style.display = 'none';
-        document.querySelector('.body').classList.remove('open');
-    }
-    openPopupButton.addEventListener('click', openPopup);
-    closePopupButton.addEventListener('click', closePopup);
-    window.addEventListener('click', (event) => {
-        if (event.target === popup) {
-            closePopup();
-        }
-    });
-    window.addEventListener('keydown', (event) => {
-        if (event.key === 'Escape' && popup.style.display === 'flex') {
-            closePopup();
-        }
-    });
-    // --------------------------------------------------------------------
-</script>
 
 <script>
     document.getElementById('showPopupBtn').addEventListener('click', function() {

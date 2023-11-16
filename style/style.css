@@ -1426,6 +1426,9 @@ margin-bottom: 43px;
 .main-icon {
     display: none;
 }
+.moigroshi-main > h2 {
+    display: none;
+}
     .popup-content2 {
         width: 80%;
     }
